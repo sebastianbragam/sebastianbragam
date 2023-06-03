@@ -13,10 +13,9 @@ My name is Sebastian Braga Mendez. I'm a computer science engineer and full stac
 ![](https://img.shields.io/badge/MSSQLServer-informational?style=flat&logo=microsoftsqlserver&logoColor=white&color=2bbc8a)
 
 ## 💻 My projects
-- [E-commerce Vivero Federal](https://github.com/sebastianbragam/grupo_10_ViveroFederal)
-Final project from 
-- [E-commerce Dashboard](https://github.com/sebastianbragam/grupo_10_ViveroFederal_dashboard)
-- [SoporTI](https://github.com/sebastianbragam/SoporTI)
+- [E-commerce Vivero Federal:](https://github.com/sebastianbragam/grupo_10_ViveroFederal) the final project we created during the Full Stack Web Developer course on Digital House. 
+- [E-commerce Dashboard:](https://github.com/sebastianbragam/grupo_10_ViveroFederal_dashboard) also part of the final project on the Full Stack Wev Developer course.
+- [SoporTI:](https://github.com/sebastianbragam/SoporTI) the final project for my Computer Science Engineering degree.
 
 <!-- links to social media icons -->
 
