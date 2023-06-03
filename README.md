@@ -2,6 +2,8 @@
 
 My name is Sebastian Braga Mendez. I'm a computer science engineer and full stack web developer from Argentina, living in Gold Coast, Australia, on a working holiday visa. You can find me on [![LinkedIn][2.2]][2].
 
+I am a highly committed and responsible professional with a deep passion for technology, actively seeking an opportunity to join a team where I can leverage and expand my technological skills. With a strong drive for continuous learning and growth, I aspire to excel as a web developer. My goal is to contribute my expertise in delivering innovative and efficient solutions, bringing a proactive and detail-oriented approach to my work.
+
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/NodeJS-informational?style=flat&logo=node.js&logoColor=white&color=2bbc8a)
