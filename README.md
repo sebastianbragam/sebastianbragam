@@ -1,6 +1,6 @@
 # Hello! <img src="https://raw.githubusercontent.com/sebastianbragam/sebastianbragam/master/wave.gif" width="30px" height="30px" />
 
-My name is Sebastian Braga Mendez. I'm a computer science engineer and full stack web developer from Argentina, living in Gold Coast, Australia, on a working holiday visa. You can find me on [LinkedIn][2].
+My name is Sebastian Braga Mendez. I'm a computer science engineer and full stack web developer from Salta, Argentina. You can find me on [LinkedIn][2].
 
 I am a highly committed and responsible professional with a deep passion for technology, actively seeking an opportunity to join a team where I can leverage and expand my technological skills. With a strong drive for continuous learning and growth, I aspire to excel as a web developer. My goal is to contribute my expertise in delivering innovative and efficient solutions, bringing a proactive and detail-oriented approach to my work.
 
@@ -17,7 +17,7 @@ I am a highly committed and responsible professional with a deep passion for tec
 
 ## 💻 My projects
 - [E-commerce Vivero Federal:](https://viverofederal.up.railway.app/) the final project we created during the Full Stack Web Developer course on Digital House [(repo here)](https://github.com/sebastianbragam/grupo_10_ViveroFederal). 
-- [E-commerce Dashboard:](https://viverofederal-dashboard.up.railway.app/) also part of the final project on the Full Stack Wev Developer course [(repo here)](https://github.com/sebastianbragam/grupo_10_ViveroFederal_dashboard).
+- [E-commerce Dashboard:](https://viverofederal-dashboard.up.railway.app/) also part of the final project on the Full Stack Web Developer course [(repo here)](https://github.com/sebastianbragam/grupo_10_ViveroFederal_dashboard).
 - [SoporTI:](https://github.com/sebastianbragam/SoporTI) the final project for my Computer Science Engineering degree.
 
 <!-- links to social media icons -->
