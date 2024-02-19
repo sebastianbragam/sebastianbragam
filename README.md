@@ -17,7 +17,7 @@ I am a highly committed and responsible professional with a deep passion for tec
 
 ## 💻 My projects
 - [E-commerce Vivero Federal:](https://viverofederal.sebastianbraga.com.ar/) the final project we created during the Full Stack Web Developer course on Digital House [(repo here)](https://github.com/sebastianbragam/grupo_10_ViveroFederal). 
-- [E-commerce Dashboard:](https://viverofederal-dashboard.up.railway.app/) also part of the final project on the Full Stack Web Developer course [(repo here)](https://github.com/sebastianbragam/grupo_10_ViveroFederal_dashboard).
+- [E-commerce Dashboard:](https://viverofederal-dashboard.sebastianbraga.com.ar/) also part of the final project on the Full Stack Web Developer course [(repo here)](https://github.com/sebastianbragam/grupo_10_ViveroFederal_dashboard).
 - [SoporTI:](https://github.com/sebastianbragam/SoporTI) the final project for my Computer Science Engineering degree.
 
 <!-- links to social media icons -->
