@@ -1,0 +1,41 @@
+/* Global settings */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+    color: #28357e;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #8890c0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #8890c0;
+}
+
+p {
+    margin-bottom: 16px;
+}
