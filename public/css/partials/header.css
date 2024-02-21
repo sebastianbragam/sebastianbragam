@@ -1,0 +1,62 @@
+/* Eliminating link aspect */
+
+header a {
+    color: #163172;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header {
+    position: fixed;
+    padding: 20px;
+    top: 0;
+    width: 100%;
+    background-color: #D6E4F0;
+    justify-content: center;
+}
+
+header div.top-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    max-width: 1280px;
+    margin: auto;
+}
+
+header div.top-header a.name {
+    font-size: 30px;
+}
+
+header div.top-header div.navbar  {
+    display: flex;
+    align-items: center;
+}
+
+header div.top-header div.navbar ul.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+header div.top-header div.navbar ul.nav-menu li {
+    margin-inline: 10px;
+}
+
+
+/* Bigger phones */
+
+@media (min-width: 481px) {}
+
+
+/* Tablets & netbooks */
+
+@media (min-width: 769px) {}
+
+
+/* Notebooks */
+
+@media (min-width: 1024px) {}
