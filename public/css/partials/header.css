@@ -1,7 +1,7 @@
 /* Eliminating link aspect */
 
 header a {
-    color: #163172;
+    color: #191BA9;
     text-decoration: none;
     font-weight: bold;
 }
@@ -11,7 +11,7 @@ header {
     padding: 20px;
     top: 0;
     width: 100%;
-    background-color: #D6E4F0;
+    background-color: #C1EAF2;
     justify-content: center;
 }
 

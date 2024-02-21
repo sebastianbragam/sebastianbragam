@@ -11,16 +11,21 @@
 /* Eliminating link aspect */
 
 body a {
-    color: #163172;
+    color: #191BA9;
     text-decoration: none;
     font-weight: bold;
+    transition: all 0.5s;
+}
+
+body a:hover {
+    color: #5CC2F2;
 }
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #F6F6F6;
+    background-color: #F7F3F3;
     min-height: 100vh;
 }
 

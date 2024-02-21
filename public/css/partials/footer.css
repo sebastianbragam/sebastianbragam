@@ -7,7 +7,7 @@ footer a {
 }
 
 footer p {
-    color: #163172;
+    color: #191BA9;
     text-decoration: none;
 }
 
@@ -15,7 +15,7 @@ footer {
     padding: 10px;
     padding-inline: 20px;
     width: 100%;
-    background-color: #D6E4F0;
+    background-color: #C1EAF2;
     justify-content: center;
     margin-top: auto;
 }
@@ -26,6 +26,14 @@ footer div.footer {
     justify-content: space-between;
     max-width: 1280px;
     margin: auto;
+}
+
+footer div.footer p.sign i {
+    transition: all 0.5s;
+}
+
+footer div.footer p.sign i:hover {
+    color: red;
 }
 
 footer div.footer div.social-media {
@@ -46,6 +54,7 @@ footer div.footer div.social-media ul.list {
 footer div.footer div.social-media ul.list li {
     margin-inline: 10px;
 }
+
 
 
 /* Bigger phones */
