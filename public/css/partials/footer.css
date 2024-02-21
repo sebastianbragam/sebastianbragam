@@ -4,13 +4,11 @@ footer a {
     color: #163172;
     text-decoration: none;
     font-weight: bold;
-    font-size: 16px;
 }
 
 footer p {
     color: #163172;
     text-decoration: none;
-    font-size: 16px;
 }
 
 footer {
@@ -29,7 +27,7 @@ footer div.footer {
     margin: auto;
 }
 
-footer div.footer div.social-media  {
+footer div.footer div.social-media {
     display: flex;
     align-items: center;
     height: fit-content;
@@ -56,7 +54,18 @@ footer div.footer div.social-media ul.list li {
 
 /* Tablets & netbooks */
 
-@media (min-width: 769px) {}
+@media (min-width: 769px) {
+
+
+    footer a {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+}
 
 
 /* Notebooks */
