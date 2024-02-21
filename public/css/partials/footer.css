@@ -17,6 +17,7 @@ footer {
     width: 100%;
     background-color: #D6E4F0;
     justify-content: center;
+    margin-top: auto;
 }
 
 footer div.footer {

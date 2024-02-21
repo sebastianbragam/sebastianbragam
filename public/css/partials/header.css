@@ -4,11 +4,10 @@ header a {
     color: #163172;
     text-decoration: none;
     font-weight: bold;
-    font-size: 16px;
 }
 
 header {
-    position: fixed;
+    position: sticky;
     padding: 20px;
     top: 0;
     width: 100%;
@@ -27,6 +26,7 @@ header div.top-header {
 
 header div.top-header a.name {
     font-size: 20px;
+    padding-right: 10px;
 }
 
 header div.top-header div.navbar {
@@ -37,13 +37,17 @@ header div.top-header div.navbar {
 header div.top-header div.navbar ul.nav-menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
+    padding-inline: 10px;
 }
 
 header div.top-header div.navbar ul.nav-menu li {
     margin-inline: 3%;
+}
+
+header div.top-header div.navbar ul.nav-menu li {
     white-space: nowrap;
 }
 
