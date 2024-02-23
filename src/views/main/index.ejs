@@ -2,39 +2,90 @@
 <html lang="en">
 
 <head>
+
     <%- include('../partials/head.ejs') %>
-    <title>Sebastian Braga</title>
-	<link rel="stylesheet" href="/css/main/index.css">
+        <title>Sebastian Braga</title>
+        <link rel="stylesheet" href="/css/main/index.css">
+
 </head>
 
 <body>
 
     <%- include('../partials/header.ejs') %>
 
-    <main>
+        <main>
 
-        <section id="about-me">
+            <section id="about-me">
 
-            <%- html %>
+                <%- html %>
 
-        </section>
+            </section>
 
-        <section id="experience">
+            <section id="experience" class="experience">
 
-            
+                <h1 class="section-experience">Experience</h1>
 
-        </section>
+                <div class="experience">
 
-        <section id="contact">
+                    <div class="list">
+                        <ul type="none">
+                            <li class="selected" onclick="activateDescription('pos');" id="pos-btn">IT Coordinator</li>
+                            <li class="" onclick="activateDescription('sal');" id="sal-btn">IT Manager</li>
+                            <li class="" onclick="activateDescription('dig');" id="dig-btn">Digital House</li>
+                        </ul>
+                    </div>
+    
+                    <div class="description" id="pos-des">
+                        <p class="title">POSCO Argentina SAU | IT Coordinator</p>
+                        <p class="dates">January 2024 - Present</p>
+                        <p class="summary-text">I'm currently working at this mining company. Initially, my role
+                            involves taking care of various IT related matters. Specially network related.</p>
+                    </div>
+    
+                    <div class="description hidden" id="sal-des">
+                        <p class="title">Saltapor SRL | IT Manager</p>
+                        <p class="dates">October 2018 - March 2023</p>
+                        <p class="summary-text">At this construction company, I worked as an IT Manager for over 4 years. Initially, my role
+                            involved implementing an ERP system, encompassing modules such as accounting, sales, purchasing,
+                            inventory, HR, and production, among others.
+                            After completing this 6 month initial parametrization, my responsibilities included maintaining
+                            all existing systems and implementing new solutions within the ERP system for the company's new
+                            areas and processes.
+                            Additionally, I coordinated various tasks and provided general IT support as needed.</p>
+                    </div>
+    
+                    <div class="description hidden" id="dig-des">
+                        <p class="title">Digital House | E-Commerce development project</p>
+                        <p class="dates">October 2022 - March 2023</p>
+                        <ul class="summary-list">
+                            <li> - Translation of design into web components.</li>
+                            <li> - User interactions and animations.</li>
+                            <li> - Asynchronous connections with Fetch.</li>
+                            <li> - Utilization of Session and Cookies for information storage.</li>
+                            <li> - Form validations with JavaScript.</li>
+                            <li> - Creation and deployment of a web server.</li>
+                            <li> - Analysis, design, and implementation of the database system.</li>
+                            <li> - User authentication and session management.</li>
+                            <li> - Integration with other platforms through APIs.</li>
+                        </ul>                   
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="contact" class="contact">
 
 
 
-        </section>
+            </section>
 
-    </main>
+        </main>
 
-    <%- include('../partials/footer.ejs') %>
+        <%- include('../partials/footer.ejs') %>
 
 </body>
+
+<script src="/js/main/index.js"></script>
 
 </html>

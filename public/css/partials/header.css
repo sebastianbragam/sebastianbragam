@@ -37,14 +37,14 @@ header div.top-header div.navbar {
 header div.top-header div.navbar ul.nav-menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
-    padding-inline: 10px;
+    padding-inline: 15px;
 }
 
 header div.top-header div.navbar ul.nav-menu li {
-    margin-inline: 3%;
+    padding-inline: 5%;
 }
 
 header div.top-header div.navbar ul.nav-menu li {
@@ -52,26 +52,20 @@ header div.top-header div.navbar ul.nav-menu li {
 }
 
 
-/* Bigger phones */
+/* Phones */ 
 
-@media (min-width: 481px) {}
+@media (max-width: 800px) {
 
-
-/* Tablets & netbooks */
-
-@media (min-width: 769px) {
-
-    header div.top-header a.name {
-        font-size: 30px;
+    * {
+        font-size: 14px;
     }
 
-    header a {
-        font-size: 18px;
+    h1 {
+        font-size: 2em;
     }
 
+    header div.top-header div.navbar ul.nav-menu {
+        display: none;
+    }
+    
 }
-
-
-/* Notebooks */
-
-@media (min-width: 1024px) {}
