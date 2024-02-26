@@ -1,4 +1,3 @@
-// Obtaining elements to use
 posBtn = document.getElementById('pos-btn');
 digBtn = document.getElementById('dig-btn');
 salBtn = document.getElementById('sal-btn');

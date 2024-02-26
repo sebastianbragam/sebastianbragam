@@ -9,6 +9,7 @@ header a {
 header {
     position: sticky;
     padding: 20px;
+    z-index: 10;
     top: 0;
     width: 100%;
     background-color: #C1EAF2;
@@ -25,7 +26,7 @@ header div.top-header {
 }
 
 header div.top-header a.name {
-    font-size: 20px;
+    font-size: 30px;
     padding-right: 10px;
 }
 
@@ -51,6 +52,10 @@ header div.top-header div.navbar ul.nav-menu li {
     white-space: nowrap;
 }
 
+header div.top-header div.side-btn {
+    display: none;
+}
+
 
 /* Phones */ 
 
@@ -66,6 +71,22 @@ header div.top-header div.navbar ul.nav-menu li {
 
     header div.top-header div.navbar ul.nav-menu {
         display: none;
+    }
+
+    header div.top-header div.side-btn {
+        align-self: center;
+        display: block;
+    }
+
+    header div.top-header div.side-btn a {
+        text-align: center;
+        color: black;
+        cursor: pointer;
+    }
+
+    header div.top-header div.side-btn a i {
+        font-size: 1.5em;
+        font-weight: bold;
     }
     
 }

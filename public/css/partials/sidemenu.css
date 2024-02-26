@@ -1,0 +1,86 @@
+/* Side menu */
+
+div.side-menu {
+    display: none;
+}
+
+div.side-menu a.close i {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    margin: 25px;
+}
+
+div.side-menu ul {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin-top: 30px;
+}
+
+div.side-menu ul li {
+    padding: 20px;
+    text-align: center;
+}
+
+div.side-menu ul li a {
+    font-size: 20px;
+}
+
+div.side-menu div.social-media {
+    display: flex;
+    align-items: center;
+}
+
+div.side-menu div.social-media ul.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+
+
+/* Phones */ 
+
+@media (max-width: 800px) {
+
+    div.side-menu {
+        position: fixed;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #C1EAF2;
+        width: 250px;
+        height: 100%;
+        z-index: 50;
+        border-left: 2px #191BA9 solid;
+        transition: all 0.3s;
+    }
+
+    div.covered {
+        right: -250px;
+    }
+    
+    div.screen {
+        position: fixed;
+        z-index: 5;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: grey;
+        opacity: 0.25;
+    }
+
+    div.hidden {
+        display: none;
+    }
+
+}
