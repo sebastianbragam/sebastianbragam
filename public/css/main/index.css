@@ -89,6 +89,7 @@ section.about-me div.buttons {
 }
 
 section.about-me div.buttons a.button {
+    cursor: pointer;
     color: black;
     font-weight: normal;
     margin-inline: 10px;
