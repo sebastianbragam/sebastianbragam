@@ -1,8 +1,8 @@
 # Hello! <img src="https://raw.githubusercontent.com/sebastianbragam/sebastianbragam/master/wave.gif" width="30px" height="30px" />
 
-My name is **Sebastian Braga Mendez**. I'm a computer science engineer and full stack web developer from Salta, Argentina. You can find me on [LinkedIn][2].
+My name is **Sebastian Braga Mendez**. I'm a computer science engineer and full stack web developer from Salta, Argentina. 
 
-I am a highly committed and responsible professional with a deep passion for technology, actively seeking an opportunity to join a team where I can leverage and expand my technological skills. With a strong drive for continuous learning and growth, I aspire to excel as a web developer. My goal is to contribute my expertise in delivering innovative and efficient solutions, bringing a proactive and detail-oriented approach to my work.
+I am a committed and responsible professional with a passion for technology, actively seeking an opportunity to join a team where I can expand my technological skills. With a strong wish for continuous learning and growth, I aspire to excel as a web developer. My goal is to contribute in delivering innovative and efficient solutions, bringing a proactive and detail-oriented approach to my work.
 
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
@@ -15,17 +15,24 @@ I am a highly committed and responsible professional with a deep passion for tec
 ![](https://img.shields.io/badge/MSSQLServer-informational?style=flat&logo=microsoftsqlserver&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/APIs-informational?style=flat&logoColor=white&color=2bbc8a)
 
+<!-- end -->
+
 ## 💻 My projects
 - [E-commerce Vivero Federal:](https://viverofederal.sebastianbraga.com.ar/) the final project we created during the Full Stack Web Developer course on Digital House [(repo here)](https://github.com/sebastianbragam/grupo_10_ViveroFederal). 
 - [E-commerce Dashboard:](https://viverofederal-dashboard.sebastianbraga.com.ar/) also part of the final project on the Full Stack Web Developer course [(repo here)](https://github.com/sebastianbragam/grupo_10_ViveroFederal_dashboard).
 - [SoporTI:](https://github.com/sebastianbragam/SoporTI) the final project for my Computer Science Engineering degree.
 
+You can find my full portfolio 🗂️ on: [sebastianbraga.com.ar](https://sebastianbraga.com.ar/)
+
 <!-- links to social media icons -->
 
 <!-- links to your social media accounts -->
 
-[1]: https://github.com/sebastianbragam
-[2]: https://www.linkedin.com/in/sbragamendez/
+## 🌐 My social accounts
+
+- Github: [sebastianbragam](https://github.com/sebastianbragam)
+- LinkedIn: [sbragamendez](https://www.linkedin.com/in/sbragamendez/)
+- Instagram: [sebastianbragam](https://www.instagram.com/sebastianbragam/)
 
 
 <!-- Resources -->
