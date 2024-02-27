@@ -86,6 +86,7 @@ section.about-me p.social a {
 
 section.about-me div.buttons {
     text-align: center;
+    margin-top: 20px;
 }
 
 section.about-me div.buttons a.button {
