@@ -19,12 +19,12 @@ div.side-menu ul {
     margin-top: 30px;
 }
 
-div.side-menu ul li {
+div.side-menu ul.nav-menu li {
     padding: 20px;
     text-align: center;
 }
 
-div.side-menu ul li a {
+div.side-menu ul.nav-menu li a {
     font-size: 20px;
 }
 
@@ -36,9 +36,19 @@ div.side-menu div.social-media {
 div.side-menu div.social-media ul.list {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
+}
+
+div.side-menu div.social-media ul.list li {
+    padding-inline: 10px;
+    padding-block: 20px;
+    text-align: center;
+}
+
+div.side-menu div.social-media ul.list li a {
+    font-size: 20px;
 }
 
 

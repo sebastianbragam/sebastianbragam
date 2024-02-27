@@ -13,78 +13,102 @@
 
     <%- include('../partials/header.ejs') %>
 
-    <%- include('../partials/sidemenu.ejs') %>
+        <%- include('../partials/sidemenu.ejs') %>
 
-        <main id="main">
+            <main id="main">
 
-            <section id="about-me">
+                <section id="about-me" class="about-me">
 
-                <%- html %>
+                    <%- html %>
 
-            </section>
+                        <h2>📧 Get in touch</h2>
 
-            <section id="experience" class="experience">
+                        <p class="social">You can find me on
+                            <a href="https://github.com/sebastianbragam" target="_blank">GitHub</a>,
+                            <a href="https://www.linkedin.com/in/sbragamendez/" target="_blank">LinkedIn</a> and
+                            <a href="https://www.instagram.com/sebastianbragam/" target="_blank">Instagram</a>.
+                        </p>
 
-                <h1 class="section-experience">Experience</h1>
+                        <br />
 
-                <div class="experience">
+                        <p class="social">You can also:</p>
 
-                    <div class="list">
-                        <ul type="none">
-                            <li class="selected" onclick="activateDescription('pos');" id="pos-btn">IT Coordinator</li>
-                            <li class="" onclick="activateDescription('sal');" id="sal-btn">IT Manager</li>
-                            <li class="" onclick="activateDescription('dig');" id="dig-btn">Digital House</li>
-                        </ul>
+                        <br />
+
+                        <div class="buttons">
+                            <a class="button" href="mailto: sbragamendez@gmail.com" target="_blank">Contact me</a>
+                            <a class="button" onclick="window.open('Resume.pdf')" target="_blank">Get my
+                                CV</a>
+                        </div>
+
+                </section>
+
+                <section id="experience" class="experience">
+
+                    <h1 class="section-experience">Experience</h1>
+
+                    <div class="experience">
+
+                        <div class="list">
+                            <ul type="none">
+                                <li class="selected" onclick="activateDescription('pos');" id="pos-btn">IT Coordinator
+                                </li>
+                                <li class="" onclick="activateDescription('sal');" id="sal-btn">IT Manager</li>
+                                <li class="" onclick="activateDescription('dig');" id="dig-btn">Digital House</li>
+                            </ul>
+                        </div>
+
+                        <div class="description" id="pos-des">
+                            <p class="title">POSCO Argentina SAU | IT Coordinator</p>
+                            <p class="dates">January 2024 - Present</p>
+                            <p class="summary-text">I'm currently working at this mining company. My role
+                                involves taking care of various IT related matters: network, servers, inventory,
+                                databases.</p>
+                        </div>
+
+                        <div class="description hidden" id="sal-des">
+                            <p class="title">Saltapor SRL | IT Manager</p>
+                            <p class="dates">October 2018 - March 2023</p>
+                            <p class="summary-text">At this construction company, I worked as an IT Manager for over 4
+                                years. Initially, my role
+                                involved implementing an ERP system, encompassing modules such as accounting, sales,
+                                purchasing,
+                                inventory, HR, and production, among others.
+                                After completing this 6 month initial parametrization, my responsibilities included
+                                maintaining
+                                all existing systems and implementing new solutions within the ERP system for the
+                                company's new
+                                areas and processes.
+                                Additionally, I coordinated various tasks and provided general IT support as needed.</p>
+                        </div>
+
+                        <div class="description hidden" id="dig-des">
+                            <p class="title">Digital House | E-Commerce development project</p>
+                            <p class="dates">October 2022 - March 2023</p>
+                            <ul class="summary-list">
+                                <li> - Translation of design into web components.</li>
+                                <li> - User interactions and animations.</li>
+                                <li> - Asynchronous connections with Fetch.</li>
+                                <li> - Utilization of Session and Cookies for information storage.</li>
+                                <li> - Form validations with JavaScript.</li>
+                                <li> - Creation and deployment of a web server.</li>
+                                <li> - Analysis, design, and implementation of the database system.</li>
+                                <li> - User authentication and session management.</li>
+                                <li> - Integration with other platforms through APIs.</li>
+                            </ul>
+                        </div>
+
                     </div>
-    
-                    <div class="description" id="pos-des">
-                        <p class="title">POSCO Argentina SAU | IT Coordinator</p>
-                        <p class="dates">January 2024 - Present</p>
-                        <p class="summary-text">I'm currently working at this mining company. My role
-                            involves taking care of various IT related matters: network, servers, inventory, databases.</p>
-                    </div>
-    
-                    <div class="description hidden" id="sal-des">
-                        <p class="title">Saltapor SRL | IT Manager</p>
-                        <p class="dates">October 2018 - March 2023</p>
-                        <p class="summary-text">At this construction company, I worked as an IT Manager for over 4 years. Initially, my role
-                            involved implementing an ERP system, encompassing modules such as accounting, sales, purchasing,
-                            inventory, HR, and production, among others.
-                            After completing this 6 month initial parametrization, my responsibilities included maintaining
-                            all existing systems and implementing new solutions within the ERP system for the company's new
-                            areas and processes.
-                            Additionally, I coordinated various tasks and provided general IT support as needed.</p>
-                    </div>
-    
-                    <div class="description hidden" id="dig-des">
-                        <p class="title">Digital House | E-Commerce development project</p>
-                        <p class="dates">October 2022 - March 2023</p>
-                        <ul class="summary-list">
-                            <li> - Translation of design into web components.</li>
-                            <li> - User interactions and animations.</li>
-                            <li> - Asynchronous connections with Fetch.</li>
-                            <li> - Utilization of Session and Cookies for information storage.</li>
-                            <li> - Form validations with JavaScript.</li>
-                            <li> - Creation and deployment of a web server.</li>
-                            <li> - Analysis, design, and implementation of the database system.</li>
-                            <li> - User authentication and session management.</li>
-                            <li> - Integration with other platforms through APIs.</li>
-                        </ul>                   
-                    </div>
 
-                </div>
+                </section>
 
-            </section>
+                <section id="contact" class="contact">
 
-            <section id="contact" class="contact">
+                </section>
 
+            </main>
 
-
-            </section>
-
-        </main>
-
-        <%- include('../partials/footer.ejs') %>
+            <%- include('../partials/footer.ejs') %>
 
 </body>
 

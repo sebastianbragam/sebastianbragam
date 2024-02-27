@@ -74,6 +74,36 @@ li {
 }
 
 
+/* About me section */
+
+section.about-me p.social {
+    font-weight: bold;
+}
+
+section.about-me p.social a {
+    font-weight: bold;
+}
+
+section.about-me div.buttons {
+    text-align: center;
+}
+
+section.about-me div.buttons a.button {
+    color: black;
+    font-weight: normal;
+    margin-inline: 10px;
+    padding: 10px;
+    border: 2px #191BA9 solid;
+    border-radius: 0.375rem;
+    transition: all 0.3s;
+}
+
+section.about-me div.buttons a.button:hover {
+    background-color: #191BA9;
+    color: #F7F3F3;
+}
+
+
 /* Experience section */
 
 section.experience div.experience {
@@ -138,7 +168,7 @@ section.experience div.experience div.description ul.summary-list {
 }
 
 
-/* Phones */ 
+/* Phones */
 
 @media (max-width: 800px) {
 
@@ -153,6 +183,20 @@ section.experience div.experience div.description ul.summary-list {
     header div.top-header div.navbar ul.nav-menu {
         display: none;
     }
+
+
+    /* About me section */
+
+    section.about-me p.social {
+        font-size: 16px;
+    }
+
+    section.about-me p.social a {
+        font-size: 16px;
+    }
+
+
+    /* Experience section */
 
     section.experience div.experience {
         display: flex;
@@ -174,12 +218,11 @@ section.experience div.experience div.description ul.summary-list {
         display: inline-block;
     }
 
-
     section.experience div.experience div.description {
         width: 100%;
         height: 78%;
     }
-    
+
 }
 
 
