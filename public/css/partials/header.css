@@ -28,6 +28,7 @@ header div.top-header {
 header div.top-header a.name {
     font-size: 30px;
     padding-right: 10px;
+    white-space: nowrap;
 }
 
 header div.top-header div.navbar {
