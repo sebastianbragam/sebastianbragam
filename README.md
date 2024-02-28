@@ -4,6 +4,8 @@ My name is **Sebastian Braga Mendez**. I'm a computer science engineer and full 
 <br/> <br/> 
 I am a committed and responsible professional with a passion for technology, actively seeking an opportunity to join a team where I can expand my technological skills. With a strong wish for continuous learning and growth, I aspire to excel as a web developer. My goal is to contribute in delivering innovative and efficient solutions, bringing a proactive and detail-oriented approach to my work.
 
+<!-- end -->
+
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/NodeJS-informational?style=flat&logo=node.js&logoColor=white&color=2bbc8a)
@@ -17,14 +19,15 @@ I am a committed and responsible professional with a passion for technology, act
 
 <!-- end -->
 
-## 💻 My projects
+# My projects 💻 
 - [E-commerce Vivero Federal:](https://viverofederal.sebastianbraga.com.ar/) the final project we created during the Full Stack Web Developer course on Digital House [(repo here)](https://github.com/sebastianbragam/grupo_10_ViveroFederal). 
 - [E-commerce Dashboard:](https://viverofederal-dashboard.sebastianbraga.com.ar/) also part of the final project on the Full Stack Web Developer course [(repo here)](https://github.com/sebastianbragam/grupo_10_ViveroFederal_dashboard).
 - [SoporTI:](https://github.com/sebastianbragam/SoporTI) the final project for my Computer Science Engineering degree.
 
+<!-- end -->
+
 You can find my full portfolio 🗂️ on: [sebastianbraga.com.ar](https://sebastianbraga.com.ar/)
 
-<!-- links to social media icons -->
 
 <!-- links to your social media accounts -->
 
@@ -34,6 +37,7 @@ You can find my full portfolio 🗂️ on: [sebastianbraga.com.ar](https://sebas
 - LinkedIn: [sbragamendez](https://www.linkedin.com/in/sbragamendez/)
 - Instagram: [sebastianbragam](https://www.instagram.com/sebastianbragam/)
 
+<!-- end -->
 
 <!-- Resources -->
 <!-- Icons: https://simpleicons.org/ -->

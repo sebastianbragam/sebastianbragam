@@ -4,8 +4,8 @@
 <head>
 
     <%- include('../partials/head.ejs') %>
-        <title>Sebastian Braga</title>
-        <link rel="stylesheet" href="/css/main/index.css">
+    <title>Sebastian Braga</title>
+    <link rel="stylesheet" href="/css/main/index.css">
 
 </head>
 
@@ -13,119 +13,124 @@
 
     <%- include('../partials/header.ejs') %>
 
-        <%- include('../partials/sidemenu.ejs') %>
+    <%- include('../partials/sidemenu.ejs') %>
 
-            <main id="main">
+    <main id="main">
 
-                <section id="about-me" class="about-me">
+        <section id="about-me" class="about-me">
 
-                    <div class="top">
+            <div class="top">
 
-                        <div class="text"><%- html %></div>
-                        
-                        <div class="images">
+                <div class="text">
+                    <div class="about-me"><%- aboutMe %></div>
+                    <div class="technologies-top"><%- technologies %></div>
+                </div>
 
-                            <img class="img1" src="images/img1.jpg">
-                            <img class="img2" src="images/img2.jpg">
-                            <img class="img3" src="images/img3.jpg">
-                            <img class="img4" src="images/img4.jpg">
+                <div class="images">
 
-                        </div>
+                    <img class="img1" src="images/img1.jpg">
+                    <img class="img2" src="images/img2.jpg">
+                    <img class="img3" src="images/img3.jpg">
+                    <img class="img4" src="images/img4.jpg">
 
-                    </div>
+                </div>
 
-                    <div class="contact"  id="contact">
+                <div class="technologies-bottom">
+                    <div class="technologies"><%- technologies %></div>
+                </div>
 
-                        <h2>📧 Get in touch</h2>
+            </div>
 
-                        <p class="social">You can find me on
-                            <a href="https://github.com/sebastianbragam" target="_blank">GitHub</a>,
-                            <a href="https://www.linkedin.com/in/sbragamendez/" target="_blank">LinkedIn</a> and
-                            <a href="https://www.instagram.com/sebastianbragam/" target="_blank">Instagram</a>. You
-                            can
-                            also:
-                        </p>
+            <div class="contact" id="contact">
 
-                        <br />
+                <h2>📧 Get in touch</h2>
 
-                        <div class="buttons">
-                            <a class="button" href="mailto: sbragamendez@gmail.com" target="_blank">Contact me</a>
-                            <a class="button" onclick="window.open('documents/Resume.pdf')" target="_blank">Get my
-                                CV</a>
-                        </div>
+                <p class="social">You can find me on
+                    <a href="https://github.com/sebastianbragam" target="_blank">GitHub</a>,
+                    <a href="https://www.linkedin.com/in/sbragamendez/" target="_blank">LinkedIn</a> and
+                    <a href="https://www.instagram.com/sebastianbragam/" target="_blank">Instagram</a>. You can also:
+                </p>
 
-                    </div>
+                <br />
 
-                </section>
+                <div class="buttons">
+                    <a class="button" href="mailto: sbragamendez@gmail.com" target="_blank">Contact me</a>
+                    <a class="button" onclick="window.open('documents/Resume.pdf')" target="_blank">Get my
+                        CV</a>
+                </div>
 
-                <section id="experience" class="experience">
+            </div>
 
-                    <h1 class="section-experience">Experience</h1>
+        </section>
 
-                    <div class="experience">
+        <section id="experience" class="experience">
 
-                        <div class="list">
-                            <ul type="none">
-                                <li class="selected" onclick="activateDescription('pos');" id="pos-btn">IT Coordinator
-                                </li>
-                                <li class="" onclick="activateDescription('sal');" id="sal-btn">IT Manager</li>
-                                <li class="" onclick="activateDescription('dig');" id="dig-btn">Digital House</li>
-                            </ul>
-                        </div>
+            <h1 class="section-experience">Experience</h1>
 
-                        <div class="description" id="pos-des">
-                            <p class="title">POSCO Argentina SAU | IT Coordinator</p>
-                            <p class="dates">January 2024 - Present</p>
-                            <p class="summary-text">My role in this mining company involves the coordination of various
-                                IT related projects: network and infraestructure, new software solutions and inventory.
-                                <br />Apart from these, the role involves supporting users with any matter related to
-                                IT.
-                            </p>
-                        </div>
+            <div class="experience">
 
-                        <div class="description hidden" id="sal-des">
-                            <p class="title">Saltapor SRL | IT Manager</p>
-                            <p class="dates">October 2018 - March 2023</p>
-                            <p class="summary-text">Initially, my role in this construction company involved
-                                implementing an ERP system, encompassing modules such as accounting, sales, purchasing,
-                                inventory, HR, and production, among others.
-                                <br />After completing this 6 month initial parametrization, my responsibilities
-                                included maintaining all existing systems and implementing new solutions within the ERP
-                                system for the company's new areas and processes.
-                                <br />Additionally, I coordinated various projects and provided general IT support as
-                                needed.
-                            </p>
-                        </div>
+                <div class="list">
+                    <ul type="none">
+                        <li class="selected" onclick="activateDescription('pos');" id="pos-btn">IT Coordinator
+                        </li>
+                        <li class="" onclick="activateDescription('sal');" id="sal-btn">IT Manager</li>
+                        <li class="" onclick="activateDescription('dig');" id="dig-btn">Digital House</li>
+                    </ul>
+                </div>
 
-                        <div class="description hidden" id="dig-des">
-                            <p class="title">Digital House | E-Commerce development project</p>
-                            <p class="dates">October 2022 - March 2023</p>
-                            <ul class="summary-list">
-                                <li> - Translation of design into web components.</li>
-                                <li> - User interactions and animations.</li>
-                                <li> - Asynchronous connections with Fetch.</li>
-                                <li> - Utilization of Session and Cookies for information storage.</li>
-                                <li> - Form validations with JavaScript.</li>
-                                <li> - Creation and deployment of a web server.</li>
-                                <li> - Analysis, design, and implementation of the database system.</li>
-                                <li> - User authentication and session management.</li>
-                                <li> - Integration with other platforms through APIs.</li>
-                            </ul>
-                        </div>
+                <div class="description" id="pos-des">
+                    <p class="title">POSCO Argentina SAU | IT Coordinator</p>
+                    <p class="dates">January 2024 - Present</p>
+                    <p class="summary-text">My role in this mining company involves the coordination of various
+                        IT related projects: network and infraestructure, new software solutions and inventory.
+                        <br />Apart from these, the role involves supporting users with any matter related to
+                        IT.
+                    </p>
+                </div>
 
-                    </div>
+                <div class="description hidden" id="sal-des">
+                    <p class="title">Saltapor SRL | IT Manager</p>
+                    <p class="dates">October 2018 - March 2023</p>
+                    <p class="summary-text">Initially, my role in this construction company involved
+                        implementing an ERP system, encompassing modules such as accounting, sales, purchasing,
+                        inventory, HR, and production, among others.
+                        <br />After completing this 6 month initial parametrization, my responsibilities
+                        included maintaining all existing systems and implementing new solutions within the ERP
+                        system for the company's new areas and processes.
+                        <br />Additionally, I coordinated various projects and provided general IT support as
+                        needed.
+                    </p>
+                </div>
 
-                </section>
+                <div class="description hidden" id="dig-des">
+                    <p class="title">Digital House | E-Commerce development project</p>
+                    <p class="dates">October 2022 - March 2023</p>
+                    <ul class="summary-list">
+                        <li> - Translation of design into web components.</li>
+                        <li> - User interactions and animations.</li>
+                        <li> - Asynchronous connections with Fetch.</li>
+                        <li> - Utilization of Session and Cookies for information storage.</li>
+                        <li> - Form validations with JavaScript.</li>
+                        <li> - Creation and deployment of a web server.</li>
+                        <li> - Analysis, design, and implementation of the database system.</li>
+                        <li> - User authentication and session management.</li>
+                        <li> - Integration with other platforms through APIs.</li>
+                    </ul>
+                </div>
 
-                <section id="projects" class="projects">
+            </div>
 
-                    <h1 class="section-projects">My projects</h1>
+        </section>
 
-                </section>
+        <section id="projects" class="projects">
 
-            </main>
+            <div class="projects"><%- projects %></div>
 
-            <%- include('../partials/footer.ejs') %>
+        </section>
+
+    </main>
+
+    <%- include('../partials/footer.ejs') %>
 
 </body>
 

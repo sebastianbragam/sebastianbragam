@@ -86,14 +86,18 @@ section.about-me div.top {
 }
 
 section.about-me div.top div.text {
-    width: 60%;
+    width: 65%;
+}
+
+section.about-me div.top div.technologies-bottom {
+    display: none;
 }
 
 section.about-me div.top div.images {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 40%;
+    width: 35%;
     padding-top: 30px;
     padding-left: 30px;
 }
@@ -218,6 +222,13 @@ section.experience div.experience div.description ul.summary-list {
 }
 
 
+/* Section projects */
+
+section.projects div {
+    margin-block: 15px;
+}
+
+
 /* Phones */
 
 @media (max-width: 800px) {
@@ -240,14 +251,23 @@ section.experience div.experience div.description ul.summary-list {
     section.about-me div.top {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     section.about-me div.top div.text {
         width: 100%;
     }
+
+    section.about-me div.top div.text div.technologies-top {
+        display: none;
+    }
     
     section.about-me div.top div.images {
-        width: 100%;
+        width: 75%;
+    }
+
+    section.about-me div.top div.technologies-bottom {
+        display: block;
     }
 
     section.about-me p.social {

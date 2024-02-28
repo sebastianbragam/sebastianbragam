@@ -19,10 +19,12 @@ let mainController = {
 
         /* Showing info until break in markdown */
         html = html.split('<!-- end -->');
-        html = html[0];
+        const aboutMe = html[0];
+        const technologies = html[1];
+        const projects = html[2];
 
         /* Render index with markdown converted to html */
-        res.render('main/index', {html});
+        res.render('main/index', {aboutMe, technologies, projects});
 
     }
 
