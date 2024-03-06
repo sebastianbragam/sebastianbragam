@@ -27,6 +27,7 @@ body a:hover {
 /* Main settings */
 
 body {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -144,8 +145,8 @@ section.about-me div.contact div.buttons {
 
 section.about-me div.contact div.buttons a.button {
     cursor: pointer;
-    color: black;
-    font-weight: normal;
+    color: #191BA9;
+    font-weight: 500;
     margin-inline: 10px;
     padding: 10px;
     border: 2px #191BA9 solid;

@@ -22,3 +22,8 @@ app.get('/', mainRoutes);
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
+
+// Nice 404 not found
+app.use((req, res, next) => { 
+    res.status(404).render('main/notFound');
+});
