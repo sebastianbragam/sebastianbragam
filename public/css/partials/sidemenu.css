@@ -58,16 +58,16 @@ div.side-menu div.social-media ul.list li a {
 @media (max-width: 800px) {
 
     div.side-menu {
+        display: flex;
         position: fixed;
         right: 0px;
-        display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         background-color: #C1EAF2;
         width: 250px;
         height: 100%;
-        z-index: 50;
+        z-index: 99;
         border-left: 2px #191BA9 solid;
         transition: all 0.3s;
     }
