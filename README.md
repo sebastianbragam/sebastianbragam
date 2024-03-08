@@ -31,7 +31,7 @@ You can find my full portfolio 🗂️ on: [sebastianbraga.com.ar](https://sebas
 
 <!-- links to your social media accounts -->
 
-## 🌐 My social accounts
+# My social accounts 🌐 
 
 - Github: [sebastianbragam](https://github.com/sebastianbragam)
 - LinkedIn: [sbragamendez](https://www.linkedin.com/in/sbragamendez/)
