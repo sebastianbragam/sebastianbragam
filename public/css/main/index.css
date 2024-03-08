@@ -250,6 +250,10 @@ section.projects div {
 
     /* About me section */
 
+    section.experience div.experience {
+        height: 550px;
+    }
+
     section.about-me div.top {
         display: flex;
         flex-direction: column;
@@ -263,7 +267,7 @@ section.projects div {
     section.about-me div.top div.text div.technologies-top {
         display: none;
     }
-    
+
     section.about-me div.top div.images {
         width: 75%;
     }
