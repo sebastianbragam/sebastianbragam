@@ -65,6 +65,7 @@ h1 {
     margin-bottom: 16px;
     padding-bottom: 0.3em;
     border-bottom: 2px solid #191BA9;
+    width: 40%;
 }
 
 h2 {
@@ -177,6 +178,7 @@ section.experience div.experience div.list {
 }
 
 section.experience div.experience div.list ul li {
+    font-weight: 600;
     text-align: center;
     padding: 7px;
 }
@@ -226,8 +228,82 @@ section.experience div.experience div.description ul.summary-list {
 
 /* Section projects */
 
-section.projects div {
+section.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+section.projects div.project {
     margin-block: 15px;
+    width: 80%;
+}
+
+section.projects div.right {
+    align-self: flex-end;
+}
+
+section.projects div.project p.title {
+    padding-block: 7px;
+    margin-block: 5px;
+}
+
+section.projects div.project p.right {
+    text-align: right;
+}
+
+section.projects div.project p.title a {
+    font-size: 1.5em;
+    color: black;
+    transition: all 0.5s;
+}
+
+section.projects div.project p.title a i {
+    vertical-align: middle;
+}
+
+section.projects div.project p.title a:hover {
+    color: #191BA9;
+}
+
+section.projects div.project p.text {
+    background-color: #C1EAF2;
+    padding: 10px;
+    border-radius: 0.375rem;
+    box-shadow: 0 10px 10px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1);
+}
+
+section.projects div.project p.text a {
+    color: black;
+    transition: all 0.5s;
+}
+
+section.projects div.project p.text a:hover {
+    color: #191BA9;
+}
+
+section.projects div.project ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+section.projects div.project ul li {
+    font-size: 0.75em;
+    font-weight: 600;
+    margin-top: 1%;
+    margin-right: 1%;
+    padding: 5px;
+    background-color: #C1EAF2;
+    border-radius: 0.375rem;
+}
+
+section.projects div.project ul.right {
+    justify-content: right;
+}
+
+section.projects div.project ul.right li {
+    margin-right: 0%;
+    margin-left: 1%;
 }
 
 
