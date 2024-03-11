@@ -65,7 +65,7 @@ h1 {
     margin-bottom: 16px;
     padding-bottom: 0.3em;
     border-bottom: 2px solid #191BA9;
-    width: 40%;
+    width: 60%;
 }
 
 h2 {
@@ -284,6 +284,7 @@ section.projects div.project p.text a:hover {
 section.projects div.project ul {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
@@ -385,7 +386,7 @@ section.projects div.project ul.right li {
 
     section.experience div.experience div.description {
         width: 100%;
-        height: 78%;
+        height: 85%;
     }
 
 }
