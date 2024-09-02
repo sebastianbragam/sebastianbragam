@@ -12,7 +12,7 @@ I am a committed and responsible professional with a passion for technology, act
 ![](https://img.shields.io/badge/Express-informational?style=flat&logo=express&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/HTML-informational?style=flat&logo=HTML5&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/CSS-informational?style=flat&logo=css3&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/React-informational?style=flat&logo=React&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/ReactJS-informational?style=flat&logo=React&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/MySQL-informational?style=flat&logo=MySQL&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/MSSQLServer-informational?style=flat&logo=microsoftsqlserver&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/APIs-informational?style=flat&logoColor=white&color=2bbc8a)
