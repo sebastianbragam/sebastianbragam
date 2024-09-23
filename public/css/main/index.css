@@ -140,6 +140,8 @@ section.about-me div.contact p.social a {
 }
 
 section.about-me div.contact div.buttons {
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin-top: 20px;
 }
