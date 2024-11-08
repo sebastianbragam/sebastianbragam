@@ -20,8 +20,9 @@ I am a committed and responsible professional with a passion for technology, act
 <!-- end -->
 
 # My projects 💻 
-- [E-commerce Vivero Federal:](https://viverofederal.sebastianbraga.com.ar/) the final project we created during the Full Stack Web Developer course on Digital House [(repo here)](https://github.com/sebastianbragam/grupo_10_ViveroFederal). 
-- [E-commerce Dashboard:](https://viverofederal-dashboard.sebastianbraga.com.ar/) also part of the final project on the Full Stack Web Developer course [(repo here)](https://github.com/sebastianbragam/grupo_10_ViveroFederal_dashboard).
+- [Vivero Federal:](https://viverofederal.sebastianbraga.com.ar/) the final project we created during the Full Stack Web Developer course on Digital House [(repo here)](https://github.com/sebastianbragam/grupo_10_ViveroFederal). 
+- [Vivero Federal Dashboard:](https://viverofederal-dashboard.sebastianbraga.com.ar/) also part of the final project on the Full Stack Web Developer course [(repo here)](https://github.com/sebastianbragam/grupo_10_ViveroFederal_dashboard).
+- [SteelPoint:](https://steelpoint.sebastianbraga.com.ar/) the final project created during the ReactJS Developer course on Coderhouse [(repo here)](https://github.com/sebastianbragam/steelpoint).
 - [SoporTI:](https://github.com/sebastianbragam/SoporTI) the final project for my Computer Science Engineering degree.
 
 <!-- end -->
