@@ -55,7 +55,7 @@ section {
 }
 
 #contact {
-    scroll-margin-top: 90px;
+    scroll-margin-top: 103px;
 }
 
 h1 {
@@ -167,44 +167,17 @@ section.about-me div.contact div.buttons a.button:hover {
 
 section.experience div.experience {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 10px;
     justify-content: space-between;
-    height: 400px;
-}
-
-section.experience div.experience div.list {
-    width: 20%;
-    border: solid 2px #191BA9;
-    border-radius: 0.375rem;
-}
-
-section.experience div.experience div.list ul li {
-    font-weight: 600;
-    text-align: center;
-    padding: 7px;
-}
-
-section.experience div.experience div.list ul li.selected {
-    color: white;
-    background-color: #191BA9;
-}
-
-section.experience div.experience div.list ul li:hover {
-    color: white;
-    background-color: #191BA9;
-    cursor: pointer;
+    align-items: center;
 }
 
 section.experience div.experience div.description {
-    width: 77%;
+    width: 80%;
     padding: 10px;
     border: solid 2px #191BA9;
     border-radius: 0.375rem;
-}
-
-section.experience div.experience div.hidden {
-    display: none;
 }
 
 section.experience div.experience div.description p.title {
@@ -329,10 +302,6 @@ section.projects div.project ul.right li {
 
     /* About me section */
 
-    section.experience div.experience {
-        height: 550px;
-    }
-
     section.about-me div.top {
         display: flex;
         flex-direction: column;
@@ -366,29 +335,8 @@ section.projects div.project ul.right li {
 
     /* Experience section */
 
-    section.experience div.experience {
-        display: flex;
-        flex-direction: column;
-    }
-
-    section.experience div.experience div.list {
-        width: 100%;
-        overflow-x: auto;
-    }
-
-    section.experience div.experience div.list ul {
-        display: flex;
-        flex-direction: row;
-        width: 200px;
-    }
-
-    section.experience div.experience div.list ul li {
-        display: inline-block;
-    }
-
     section.experience div.experience div.description {
         width: 100%;
-        height: 85%;
     }
 
 }

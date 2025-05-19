@@ -1,8 +1,7 @@
 # Hello! <img src="https://raw.githubusercontent.com/sebastianbragam/sebastianbragam/master/wave.gif" width="30px" height="30px" />
 
-My name is **Sebastian Braga Mendez**. I'm a computer science engineer and full stack web developer from Salta, Argentina. 
-<br/> <br/> 
-I am a committed and responsible professional with a passion for technology, actively seeking an opportunity to join a team where I can expand my technological skills. With a strong wish for continuous learning and growth, I aspire to excel as a web developer. My goal is to contribute in delivering innovative and efficient solutions, bringing a proactive and detail-oriented approach to my work.
+My name is **Sebastian Braga Mendez**. I'm a computer Science Engineer with strong IT coordination experience in mining and construction industries. Skilled in fullstack web development and ERP implementation, maintenance and support. Eager to contribute to dynamic IT teams,
+bringing a hands-on approach to systems improvement and support.
 
 <!-- end -->
 
